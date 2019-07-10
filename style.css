@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* Reset CSS
+============== */
+body, h1, h2, h3, h4, video, ul, li, dl, dt, dd, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#111));
+  background: -o-linear-gradient(#333, #111);
+  background: linear-gradient(#333, #111);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+
+.sec {
+  padding-bottom: 50px;
+}
+
+.sec h2 {
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.profile-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1;
+  padding-bottom: 50px;
+}
+
+.profile-image h1 {
+  padding-left: 20px;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.profile-image img {
+  width: 20%;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.portfolio-profile {
+  line-height: 1.5;
+}
+
+.portfolio-profile .profile-text dt {
+  font-weight: bold;
+}
+
+.portfolio-profile .profile-text dd {
+  padding: 0 0 .75em 1em;
+  font-size: 14px;
+}
+
+.works-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.works-list li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.works-list li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.works-list li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.works-list li a .works-image {
+  width: 100px;
+}
+
+.works-list li a .works-image img {
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.works-list li a .works-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 16px;
+}
+
+.works-list li a .works-text dt {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.75);
+  padding-bottom: .2em;
+}
+
+.works-list li a .works-text dd {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}

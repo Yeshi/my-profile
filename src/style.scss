@@ -1,0 +1,127 @@
+﻿/* Reset CSS
+============== */
+body, h1, h2, h3, h4, video, ul, li, dl, dt, dd, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+
+ul, li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+iframe {
+    max-width: 100%;
+}
+
+body {
+    background: linear-gradient(#333, #111);
+    color: rgba(255,255,255,.75);
+}
+a {
+    color: rgba(255,255,255,.5);
+    &:hover {
+        color: rgba(255,255,255,.8);
+    }
+}
+
+.wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+.sec {
+    padding-bottom: 50px;
+
+    h2 {
+        padding-bottom: 20px;
+        text-align: center;
+        font-weight: normal;
+    }
+}
+
+.profile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding-bottom: 50px;
+
+    h1 {
+        padding-left: 20px;
+        font-size: 28px;
+        font-weight: normal;
+    }
+
+    img {
+        width: 20%;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+
+.portfolio-profile {
+    line-height: 1.5;
+
+    .profile-text {
+        dt {
+            font-weight: bold;
+        }
+
+        dd {
+            padding: 0 0 .75em 1em;
+            font-size: 14px;
+        }
+    }
+}
+
+.works-list {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+
+    li {
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+        a {
+            display: flex;
+            align-items: center;
+            padding: 8px 16px;
+            text-decoration: none;
+
+            &:hover {
+                background-color: rgba(255, 255, 255, .1);
+            }
+
+            .works-image {
+                width: 100px;
+
+                img {
+                    box-shadow: 0 0 6px rgba(0, 0, 0, .2)
+                }
+            }
+
+            .works-text {
+                flex: 1;
+                padding-left: 16px;
+
+                dt {
+                    font-size: 18px;
+                    color: rgba(255, 255, 255, .75);
+                    padding-bottom: .2em;
+                }
+
+                dd {
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, .5);
+                }
+            }
+        }
+    }
+}
