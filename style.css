@@ -24,8 +24,6 @@ iframe {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#111));
-  background: -o-linear-gradient(#333, #111);
   background: linear-gradient(#333, #111);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -38,6 +36,11 @@ a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.header {
+  font-size: 14px;
+  padding: 8px 8px 0;
+  color: rgba(255,255,255,.6);
+}
 .wrapper {
   max-width: 640px;
   margin: 0 auto;
